@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    background-image: url('icons/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #595959;
+  }
+  html {
+    margin: 0;
+    position: relative;
+    background-color: #595959;
+    height: 100vh;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    height: 70%;
+    margin: 10px 0;
+  }
+  
+  .main {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 375px;
+    margin-top: -50px;
+    border-radius: 30px;
+    padding: 0 0 10px 0;
+    box-shadow: 0 0 20px #d17a22;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75%;
+    
+  }
+  
+  #Rock,
+  #Paper,
+  #Scissors {
+    border: none;
+    padding: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+  }
+  
+  #Rock {
+    background-image: url(icons/rock.svg);
+  }
+  
+  #Paper {
+    background-image: url(icons/paper.svg);
+  }
+  
+  #Scissors {
+    background-image: url(icons/scissors.svg);
+  }
+  
+  .options {
+    transition: transform 0.2s ease-in-out;
+    background-color: white;
+  }
+  
+  .options:hover {
+    transform: translateY(-5px);
+  }
+  a{
+    text-decoration: none;
+  }
+  #github{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
